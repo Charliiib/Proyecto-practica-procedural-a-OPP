@@ -21,8 +21,8 @@
                 <?= $producto['catNombre'] ?> - <?= $producto['mkNombre'] ?>
                 <br>
                 $<?= $producto['prdPrecio'] ?>
-                <a href="" class="btn btn-outline-info">
-                    ver detalle
+                <a href="detalles.php?idProducto=<?= $producto['idProducto'] ?>" class="btn btn-outline-info">
+                    Ver detalle
                 </a>
             </div>
 <?php
